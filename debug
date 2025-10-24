@@ -1,0 +1,19 @@
+class ShoppingCart:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
+
+    def show_items(self):
+        print("Items in cart:", self.items)
+
+
+cart1 = ShoppingCart()
+cart2 = ShoppingCart()
+
+cart1.add_item("Apples")
+cart2.add_item("Bananas")
+
+cart1.show_items()
+cart2.show_items()
